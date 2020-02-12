@@ -28,7 +28,9 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         int l;
 
         N= rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * l;
+        System.out.println("rate of star formation");
 
+        rStar = Keyboard.nextInt();
         System.out.println("The Number of intelligent species that are out there that can communicate with us is: " + N);
 
 
