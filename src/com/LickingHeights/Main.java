@@ -45,6 +45,9 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
 
          System.out.println("The Fraction of That life that builds detectable communications");
          f_c = Keyboard.nextDouble();
+         System.out.println("Longevity of the communications");
+         l = Keyboard.nextInt();
+        N = (int) (rStar * f_p * numberOfExoplanets * f_l * f_i * l * f_c);
         System.out.println("The Number of intelligent species that are out there that can communicate with us is: " + N);
 
 
