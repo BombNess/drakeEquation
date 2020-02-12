@@ -39,6 +39,9 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
 
          System.out.println("The Fraction of those Exoplanets that has life that evolves");
          f_l = Keyboard.nextDouble();
+
+         System.out.println("The Fraction of that life that develops intelligence");
+         f_i = Keyboard.nextDouble();
         System.out.println("The Number of intelligent species that are out there that can communicate with us is: " + N);
 
 
