@@ -33,6 +33,9 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         rStar = Keyboard.nextInt();
         System.out.println("Fraction of those stars that have planets");
          f_p = Keyboard.nextDouble();
+
+         System.out.println("Number of those planets that can support life");
+         numberOfExoplanets = Keyboard.nextInt();
         System.out.println("The Number of intelligent species that are out there that can communicate with us is: " + N);
 
 
